@@ -1,0 +1,25 @@
+{
+  "name": "control",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/minimist": "^1.2.5",
+    "@types/node": "^20.14.12",
+    "chalk": "^5.3.0",
+    "indent-string": "^5.0.0",
+    "inquirer": "^9.2.22",
+    "minimist": "^1.2.8",
+    "typescript": "^5.5.4"
+  },
+  "files": [
+    "dist/src"
+  ],
+  "type": "module",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  }
+}
