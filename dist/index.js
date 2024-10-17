@@ -4,4 +4,3 @@ export { defaults, createHost } from './host.js';
 export { startSpinner, stopSpinner, continueSpinner } from './spinner.js';
 export { ask, confirm, choose } from './prompt.js';
 export { sleep, randomString, readDir, str, exec, commandSupportsOption, } from "./utils.js";
-//# sourceMappingURL=index.js.map

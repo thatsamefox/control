@@ -3,6 +3,7 @@ import chalk from 'chalk';
 import process from 'node:process';
 import indentString from 'indent-string';
 export class StopError extends Error {
+    explanation;
     constructor(message, explanation) {
         super(message);
         this.explanation = explanation;
@@ -29,4 +30,3 @@ export function handleError(error) {
         throw error;
     }
 }
-//# sourceMappingURL=error.js.map

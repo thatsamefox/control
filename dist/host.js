@@ -26,4 +26,3 @@ export function createHost(config) {
     });
     return { config, host, $ };
 }
-//# sourceMappingURL=host.js.map

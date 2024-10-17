@@ -1,6 +1,10 @@
 import { handleError } from './error.js';
 import chalk from 'chalk';
 export class Task {
+    name;
+    callback;
+    group;
+    become;
     constructor(name, callback) {
         this.name = name;
         if (Array.isArray(callback)) {
@@ -52,4 +56,3 @@ export async function runTask(taskName, context) {
     }
     await task.callback(context).catch(handleError);
 }
-//# sourceMappingURL=task.js.map

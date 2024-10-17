@@ -143,6 +143,12 @@ function env(env) {
         .join('');
 }
 export class Response extends String {
+    command;
+    location;
+    exitCode;
+    stdout;
+    stderr;
+    error;
     constructor(command, location, exitCode, stdout, stderr, error) {
         super(stdout.trim());
         this.command = command;
@@ -168,4 +174,3 @@ export async function composeCmd(pieces, values) {
     }
     return cmd;
 }
-//# sourceMappingURL=ssh.js.map

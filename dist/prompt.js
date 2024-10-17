@@ -44,4 +44,3 @@ export async function choose(message, choices) {
     continueSpinner();
     return answers.out;
 }
-//# sourceMappingURL=prompt.js.map

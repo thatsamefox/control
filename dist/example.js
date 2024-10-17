@@ -16,4 +16,3 @@ try {
 finally {
     stopSpinner();
 }
-//# sourceMappingURL=example.js.map

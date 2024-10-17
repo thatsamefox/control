@@ -56,4 +56,3 @@ function width(...xs) {
 function remoteNonAscii(text) {
     return text.replace(/[^\x00-\x7F]/g, '');
 }
-//# sourceMappingURL=spinner.js.map
